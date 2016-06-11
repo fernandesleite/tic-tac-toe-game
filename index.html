@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="modal" id="modal">
+	<div>
+		<h1 class="text">Choose option</h1>
+		<button class="option" onclick="modal(this)" id="X">X</button>
+		<span class="text">or</span>
+		<button class="option" onclick="modal(this)" id="O">O</button>
+	</div>
+</div>
+<div class="modal" id="endScreen">
+		<h1 class ="text" id="winMsg"></h1>
+		<button class='option' id='playAgain'>Play Again</button>
+</div>
+	<div class="container">
+		<button class="squares" id="a"></button>
+		<button class="squares" id="b"></button>
+		<button class="squares" id="c"></button>
+		<button class="squares" id="d"></button>
+		<button class="squares" id="e"></button>
+		<button class="squares" id="f"></button>
+		<button class="squares" id="g"></button>
+		<button class="squares" id="h"></button>
+		<button class="squares" id="i"></button>
+	</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="js/tictactoe.js"></script>
+</body>
+</html>
